@@ -1,6 +1,8 @@
 # VSCode-IDE-setup
 My VSCode IDE configuration
 
+[**PT-BR**](./docs/README.pt-br.md)
+
 ## Dependencies
 - [VSCode Installation](https://code.visualstudio.com/download)
 
