@@ -10,11 +10,13 @@ My VSCode IDE configuration
 ## Getting Started
 <details>
   <summary>MinGW Setup for C</summary>
+  
   - Add `C:\mingw64\bin` to the PATH system environment variable;
   - Place header files (`.h`) in `C:\mingw64\include`;
   - Place source files (`.c`) or library files (`.a`,`.lib`) in `C:\mingw64\lib`;
   - Install the **VSCode C/C++ Extension Pack**
   - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode folder**](./.vscode/))
+
 </details>
 
 ## Troubleshooting
