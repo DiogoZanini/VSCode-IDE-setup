@@ -6,6 +6,7 @@ My VSCode IDE configuration
 ## Dependencies
 - [VSCode Installation](https://code.visualstudio.com/download)
 - [MinGW Installation for C](https://www.mingw-w64.org/downloads/)
+- [Python Installation](https://www.python.org/downloads/)
 
 ## Getting Started
 <details>
@@ -16,6 +17,14 @@ My VSCode IDE configuration
   - Place source files (`.c`) or library files (`.a`,`.lib`) in `C:\mingw64\lib`;
   - Install the **VSCode C/C++ Extension Pack**
   - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode folder**](./.vscode/))
+
+</details>
+
+<details>
+  <summary>Python Setup</summary>
+  
+  - Install latest stable **Python** version and ensure it's added to the System PATH.
+  - Install the **Python Extension** for VSCode.
 
 </details>
 
