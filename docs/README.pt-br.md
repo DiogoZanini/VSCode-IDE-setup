@@ -6,6 +6,7 @@ Minha configuração do VSCode IDE
 ## Dependências
 - [Instalação do VSCode](https://code.visualstudio.com/download)
 - [Instalação do MinGW para C](https://www.mingw-w64.org/downloads/)
+- [Instalação do Python](https://www.python.org/downloads/)
 
 ## Primeiros Passos
 <details>
@@ -17,6 +18,13 @@ Minha configuração do VSCode IDE
   - Instale o **VSCode C/C++ Extension Pack**.
   - Configure os arquivos `launch.json`, `settings.json` e `tasks.json` no workspace `.vscode` (use a [**pasta .vscode**](./.vscode/) como referência).
 
+</details>
+
+<details>
+  <summary>Configuração do Python</summary>
+
+  - Instale a versão estável mais recente do **Python** e certifique-se de adicioná-lo ao PATH do sistema.
+  - Instale a **extensão Python** para o VSCode.
 </details>
 
 ## Solução de problemas
