@@ -5,6 +5,7 @@ My VSCode IDE configuration
 
 ## Dependencies
 - [VSCode Installation](https://code.visualstudio.com/download)
+- [MinGW Installation for C](https://www.mingw-w64.org/downloads/#mingw-w64-builds)
 
 ## Troubleshooting
 Common issues and their solutions.
