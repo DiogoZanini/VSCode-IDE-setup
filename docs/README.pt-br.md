@@ -4,9 +4,9 @@ Minha configuração do VSCode IDE
 [**EN-US**](../README.md)
 
 ## Dependências
-- [Instalação do VSCode](https://code.visualstudio.com/download)
-- [Instalação do MinGW para C](https://www.mingw-w64.org/downloads/)
-- [Instalação do Python](https://www.python.org/downloads/)
+- [VSCode](https://code.visualstudio.com/download)
+- [MinGW](https://www.mingw-w64.org/downloads/)
+- [Python](https://www.python.org/downloads/)
 
 ## Primeiros Passos
 <details>
@@ -25,6 +25,18 @@ Minha configuração do VSCode IDE
 
   - Instale a versão estável mais recente do **Python** e certifique-se de adicioná-lo ao PATH do sistema.
   - Instale a **extensão Python** para o VSCode.
+  
+</details>
+
+<details>
+  <summary>Configuração do SQLite</summary>
+
+  - Instale a extensão [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) para VS Code desenvolvida por alexcvzz;
+  - O SQLite já vem incluído no Python — confirme que está funcionando executando:
+```bash
+    python -c "import sqlite3; print(sqlite3.sqlite_version)"
+```
+
 </details>
 
 ## Solução de problemas

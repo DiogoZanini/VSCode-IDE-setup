@@ -4,9 +4,9 @@ My VSCode IDE configuration
 [**PT-BR**](./docs/README.pt-br.md)
 
 ## Dependencies
-- [VSCode Installation](https://code.visualstudio.com/download)
-- [MinGW Installation for C](https://www.mingw-w64.org/downloads/)
-- [Python Installation](https://www.python.org/downloads/)
+- [VSCode](https://code.visualstudio.com/download)
+- [MinGW](https://www.mingw-w64.org/downloads/)
+- [Python](https://www.python.org/downloads/)
 
 ## Getting Started
 <details>
@@ -15,16 +15,27 @@ My VSCode IDE configuration
   - Add `C:\mingw64\bin` to the PATH system environment variable;
   - Place header files (`.h`) in `C:\mingw64\include`;
   - Place source files (`.c`) or library files (`.a`,`.lib`) in `C:\mingw64\lib`;
-  - Install the **VSCode C/C++ Extension Pack**
-  - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode folder**](./.vscode/))
+  - Install the **VSCode C/C++ Extension Pack**;
+  - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode folder**](./.vscode/)).
 
 </details>
 
 <details>
   <summary>Python Setup</summary>
   
-  - Install latest stable **Python** version and ensure it's added to the System PATH.
+  - Install latest stable **Python** version and ensure it's added to the System PATH;
   - Install the **Python Extension** for VSCode.
+
+</details>
+
+<details>
+  <summary>SQLite Setup</summary>
+
+  - Install the [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) VS Code extension by alexcvzz;
+  - SQLite comes bundled with Python — confirm it is working by running:
+```bash
+    python -c "import sqlite3; print(sqlite3.sqlite_version)"
+```
 
 </details>
 
