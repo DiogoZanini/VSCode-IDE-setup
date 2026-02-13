@@ -1,7 +1,9 @@
 # VSCode-IDE-setup
-My VSCode IDE configuration
+My VSCode setup for C, Python and SQLite development, extending CS50's workflow
 
 [**PT-BR**](./docs/README.pt-br.md)
+
+<img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/ff35e077-69da-4b4d-8fbb-49d2b84a1ce2" />
 
 ## Dependencies
 - [VSCode](https://code.visualstudio.com/download)
