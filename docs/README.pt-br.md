@@ -1,4 +1,4 @@
-# Configuração do VSCode-IDE
+# 💻 Configuração do VSCode-IDE
 Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, estendendo o workflow do CS50
 
 [**EN-US**](../README.md)
@@ -6,14 +6,14 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 <img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/6f56686f-e6dd-4e73-acd3-a11f24666d55" />
 
 
-## Dependências
+## 📦 Dependências
 - [VSCode](https://code.visualstudio.com/download)
 - [MinGW](https://www.mingw-w64.org/downloads/)
 - [Python](https://www.python.org/downloads/)
 
-## Primeiros Passos
+## 🚀 Primeiros Passos
 <details>
-  <summary>Configuração do MinGW para C</summary>
+  <summary>⚙️ Configuração do MinGW para C</summary>
 
   - Adicione `C:\mingw64\bin` à variável de ambiente do sistema PATH.
   - Coloque os arquivos de cabeçalho (`.h`) em `C:\mingw64\include`.
@@ -24,7 +24,7 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 </details>
 
 <details>
-  <summary>Configuração do Python</summary>
+  <summary>🐍 Configuração do Python</summary>
 
   - Instale a versão estável mais recente do **Python** e certifique-se de adicioná-lo ao PATH do sistema.
   - Instale a **extensão Python** para o VSCode.
@@ -32,7 +32,7 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 </details>
 
 <details>
-  <summary>Configuração do SQLite</summary>
+  <summary>🗄️ Configuração do SQLite</summary>
 
   - Instale a extensão [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) para VS Code desenvolvida por alexcvzz;
   - O SQLite já vem incluído no Python — confirme que está funcionando executando:
@@ -42,7 +42,7 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 
 </details>
 
-## Solução de problemas
+## 🔧 Solução de problemas
 Problemas comuns e suas soluções.
 
 [Guia completo de solução de problemas](./docs/TROUBLESHOOTING.md)
