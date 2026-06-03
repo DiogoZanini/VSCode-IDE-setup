@@ -1,5 +1,5 @@
 # Troubleshooting
-Problems encountered and their solutions
+Problems encountered and their solutions.
 
 ### Visual Studio Code C/C++ debug error (System.Security.SecurityException: Falha na validação de nome forte)
 - **Problem:** Unable to start debugging. Unable to establish a connection to GDB. Debug output may contain more information.

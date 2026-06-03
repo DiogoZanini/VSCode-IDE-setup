@@ -1,5 +1,5 @@
 # 💻 Configuração do VSCode-IDE
-Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, estendendo o workflow do CS50
+Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, estendendo o workflow do CS50 de Harvard.
 
 [**EN-US**](../README.md)
 
@@ -15,10 +15,10 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 <details>
   <summary>⚙️ Configuração do MinGW para C</summary>
 
-  - Adicione `C:\mingw64\bin` à variável de ambiente do sistema PATH.
-  - Coloque os arquivos de cabeçalho (`.h`) em `C:\mingw64\include`.
-  - Coloque os arquivos de código-fonte (`.c`) ou arquivos de biblioteca (`.a`, `.lib`) em `C:\mingw64\lib`.
-  - Instale o **VSCode C/C++ Extension Pack**.
+  - Adicione `C:\mingw64\bin` à variável de ambiente do sistema PATH;
+  - Coloque os arquivos de cabeçalho (`.h`) em `C:\mingw64\include`;
+  - Coloque os arquivos de código-fonte (`.c`) ou arquivos de biblioteca (`.a`, `.lib`) em `C:\mingw64\lib`;
+  - Instale o **VSCode C/C++ Extension Pack**;
   - Configure os arquivos `launch.json`, `settings.json` e `tasks.json` no workspace `.vscode` (use a [**pasta .vscode**](./.vscode/) como referência).
 
 </details>
@@ -26,7 +26,7 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 <details>
   <summary>🐍 Configuração do Python</summary>
 
-  - Instale a versão estável mais recente do **Python** e certifique-se de adicioná-lo ao PATH do sistema.
+  - Instale a versão estável mais recente do **Python** e certifique-se de adicioná-lo ao PATH do sistema;
   - Instale a **extensão Python** para o VSCode.
   
 </details>

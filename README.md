@@ -1,5 +1,5 @@
 # 💻 VSCode IDE setup
-My VSCode setup for C, Python and SQLite development, extending CS50's workflow
+My VSCode setup for C, Python and SQLite development, extending Harvard CS50's workflow.
 
 [**PT-BR**](./docs/README.pt-br.md)
 
