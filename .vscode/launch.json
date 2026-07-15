@@ -22,6 +22,20 @@
             ],
             "preLaunchTask": "C/C++: gcc.exe build active file",
             "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Python Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": [
+                "debug-in-terminal"
+            ],
+            "env": {
+                "PYTHONPATH": "C:\\Python314;C:\\Python314\\Scripts"
+            }
         }
     ]
 }
