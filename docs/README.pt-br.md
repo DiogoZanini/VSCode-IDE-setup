@@ -3,8 +3,7 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
 
 [**EN-US**](../README.md)
 
-<img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/6f56686f-e6dd-4e73-acd3-a11f24666d55" />
-
+![IDE Config](./docs/tasks.png)
 
 ## 📦 Dependências
 - [VSCode](https://code.visualstudio.com/download)
@@ -16,10 +15,10 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
   <summary>⚙️ Configuração do MinGW para C</summary>
 
   - Adicione `C:\mingw64\bin` à variável de ambiente do sistema PATH;
-  - Coloque os arquivos de cabeçalho (`.h`) em `C:\mingw64\include`;
-  - Coloque os arquivos de código-fonte (`.c`) ou arquivos de biblioteca (`.a`, `.lib`) em `C:\mingw64\lib`;
   - Instale o **VSCode C/C++ Extension Pack**;
-  - Configure os arquivos `launch.json`, `settings.json` e `tasks.json` no workspace `.vscode` (use a [**pasta .vscode**](./.vscode/) como referência).
+  - Configure os arquivos `launch.json`, `settings.json` e `tasks.json` no workspace `.vscode` (use a [**diretório .vscode**](./.vscode/) como referência).
+
+> 💡 **Usando a Biblioteca CS50:** Se você precisar executar código legado que utiliza a biblioteca CS50, basta copiar os arquivos `cs50.h` e `cs50.c` do [**diretório cs50**](./cs50/) diretamente para a pasta do seu projeto ativo.
 
 </details>
 
