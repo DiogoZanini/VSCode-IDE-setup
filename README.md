@@ -3,7 +3,7 @@ My VSCode setup for C, Python and SQLite development, extending Harvard CS50's w
 
 [**PT-BR**](./docs/README.pt-br.md)
 
-<img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/ff35e077-69da-4b4d-8fbb-49d2b84a1ce2" />
+![IDE Config](./docs/tasks.png)
 
 ## 📦 Dependencies
 - [VSCode](https://code.visualstudio.com/download)
@@ -15,10 +15,10 @@ My VSCode setup for C, Python and SQLite development, extending Harvard CS50's w
   <summary>⚙️ MinGW Setup for C</summary>
   
   - Add `C:\mingw64\bin` to the PATH system environment variable;
-  - Place header files (`.h`) in `C:\mingw64\include`;
-  - Place source files (`.c`) or library files (`.a`,`.lib`) in `C:\mingw64\lib`;
   - Install the **VSCode C/C++ Extension Pack**;
-  - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode folder**](./.vscode/)).
+  - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode directory**](./.vscode/)).
+
+> 💡 **Using the CS50 Library:** If you need to run legacy code that uses the CS50 library, simply copy the `cs50.h` and `cs50.c` files from the [**cs50 directory**](./cs50/) directly into your active project folder.
 
 </details>
 
