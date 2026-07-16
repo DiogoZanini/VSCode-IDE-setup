@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/main.exe",
-            "args": ["${input:commandLineArgs}"], // Pergunta os argumentos para o C
+            "args": ["${input:commandLineArgs}"], // Prompt for C arguments
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
@@ -28,7 +28,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "args": ["${input:commandLineArgs}"], // Adicionado: Pergunta os argumentos para o Python
+            "args": ["${input:commandLineArgs}"], // Prompt for Python arguments
             "console": "integratedTerminal",
             "justMyCode": true,
             "purpose": [
@@ -43,7 +43,7 @@
         {
             "id": "commandLineArgs",
             "type": "promptString",
-            "description": "Digite os argumentos de linha de comando (ou pressione Enter para nenhum):",
+            "description": "Enter command line arguments (or press Enter for none):",
             "default": ""
         }
     ]
