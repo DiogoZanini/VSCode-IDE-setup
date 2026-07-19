@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug (C)",
+            "name": "Debug (C) - With Args",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/main.exe",
-            "args": ["${input:commandLineArgs}"], // Prompt for C arguments
+            "args": ["${input:commandLineArgs}"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
@@ -24,11 +24,48 @@
             "internalConsoleOptions": "neverOpen"
         },
         {
-            "name": "Python Debugger",
+            "name": "Debug (C) - No Args",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Debug (Python) - With Args",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "args": ["${input:commandLineArgs}"], // Prompt for Python arguments
+            "args": ["${input:commandLineArgs}"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": [
+                "debug-in-terminal"
+            ],
+            "env": {
+                "PYTHONPATH": "C:\\Python314;C:\\Python314\\Scripts"
+            }
+        },
+        {
+            "name": "Debug (Python) - No Args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": [],
             "console": "integratedTerminal",
             "justMyCode": true,
             "purpose": [
@@ -43,7 +80,7 @@
         {
             "id": "commandLineArgs",
             "type": "promptString",
-            "description": "Enter command line arguments (or press Enter for none):",
+            "description": "Enter command line arguments:",
             "default": ""
         }
     ]
