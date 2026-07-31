@@ -3,5 +3,6 @@
     "C_Cpp.default.includePath": [
         "${workspaceFolder}/**"
     ],
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "debug.terminal.clearBeforeReusing": true
 }   
