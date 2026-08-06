@@ -18,6 +18,8 @@ My VSCode setup for C, Python and SQLite development, extending Harvard CS50's w
   - Install the **VSCode C/C++ Extension Pack**;
   - Configure `launch.json`, `settings.json`, and `tasks.json` in the `.vscode` workspace (reference the [**.vscode directory**](./.vscode/)).
 
+> 💡**Passing multiple arguments while debugging:** Separate each argument with double quotes or the VSCode IDE will interpret as a single argument string with spaces. Example: "argument1" "argument2" 
+
 > 💡 **Using the CS50 Library:** If you need to run legacy code that uses the CS50 library, simply copy the `cs50.h` and `cs50.c` files from the [**cs50 directory**](./cs50/) directly into your active project folder.
 
 </details>

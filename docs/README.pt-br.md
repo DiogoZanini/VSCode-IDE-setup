@@ -18,6 +18,8 @@ Minha configuração do VSCode para desenvolvimento em C, Python e SQLite, esten
   - Instale o **VSCode C/C++ Extension Pack**;
   - Configure os arquivos `launch.json`, `settings.json` e `tasks.json` no workspace `.vscode` (use a [**diretório .vscode**](./.vscode/) como referência).
 
+> 💡 **Passando múltiplos argumentos durante a depuração:** Separe cada argumento com aspas duplas, caso contrário a IDE do VSCode os interpretará como uma única string de argumento com espaços. Exemplo: `"argumento1"` `"argumento2"`.
+
 > 💡 **Usando a Biblioteca CS50:** Se você precisar executar código legado que utiliza a biblioteca CS50, basta copiar os arquivos `cs50.h` e `cs50.c` do [**diretório cs50**](./cs50/) diretamente para a pasta do seu projeto ativo.
 
 </details>
